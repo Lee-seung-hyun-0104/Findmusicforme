@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>backnumberkoerafan</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<style type="text/css">
+
+			*{
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				font-family: 'Noto Serif KR', serif;
+				background-color: #ede1c7;
+			}
+			.carousel1{
+				background-image: url(images/carousel1.jpg);
+				background-size: cover;
+				background-position: center top;
+				height: 700px;
+			}
+			.carousel2{
+				background-image: url(images/carousel2.jpg);
+				background-size: cover;
+				background-position: center top;
+				height: 700px;
+			}
+			.carousel3{
+				background-image: url(images/carousel3.jpg);
+				background-size: cover;
+				background-position: center top;
+				height: 700px;
+			}
+			.nav-shadow{
+				text-shadow: 0px 0px 3px black;
+			}
+			.container{
+				margin-top: 80px;
+				margin-bottom: 80px;
+			}
+			.album{
+				margin-top: 20px;
+			}
+			.course img:hover{
+				box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+				transform:scale(1.1);
+				transition: all .5s;
+			}
+			.course{
+				text-decoration: none;
+			}
+			.member{
+				margin-bottom: 40px;
+			}
+			h3{
+				color: #323232;
+				text-align: center;
+			 	font-size: 32px;
+			 	margin-bottom: 50px;
+			 	font-weight: 800;
+			}
+			h4{
+				color: #323232;
+				text-align: center;
+			 	font-size: 21px;
+			 	margin-top: 24px;
+			 	font-weight: 500;
+			}
+			p{
+				color: #646464;
+				text-align: center;
+			 	font-size: 16px;
+			 	font-weight: 200;
+			}
+			.For p{
+				text-align: justify;
+			}
+			.member img{
+				border: solid 5px white;
+			}
+			.d-flex{
+				float: right;
+				text-align: right;
+			}
+			#navbarSupportedContent{
+				margin-right: 40px;
+			}
+			.footer{
+				width: 100%;
+				height: 200px;
+				background-image: url(images/footer.png);
+				background-position: bottom right;
+				text-align: center;
+				margin-top: 80px;
+			}
+			.footer p{
+				font-weight: 100;
+				font-size: 14px;
+				margin-bottom: 30px;
+			}
+			.footer a{
+				font-size: 16px;
+				background-color: #323232;
+				padding: 10px;
+				text-decoration: none;
+				color: white;
+			}
+			.footer a:hover{
+				background-color: white;
+				color: #323232;
+				transition: all .5s;
+			}
+			.fext{
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.helper{
+				height: 100%;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="images/logo_white.png" height="60px"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						</ul>
+							<form class="d-flex">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+									<a class="nav-link nav-shadow scroll" href="#target1" style="color: white; font-weight: bold; font-size:16px;">Disc</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link nav-shadow" href="#target2" style="color: white; font-weight: bold; font-size:16px; margin-left: 50px;">Member</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link nav-shadow" href="#target3" style="color: white; font-weight: bold; font-size:16px; margin-left: 50px;">For back number</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link nav-shadow" href="news.html" style="color: white; font-weight: bold; font-size:16px; margin-left: 50px;">News</a>
+									</li>
+								</ul>
+							</form>
+					</div>
+			</div>
+		</nav>
+
+		<div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active carousel1">
+					
+				</div>
+				<div class="carousel-item carousel2">
+					
+				</div>
+				<div class="carousel-item carousel3">
+					
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+
+		<div class="container"><div id="target1"></div>
+			<div class="row justify-content-center">
+				<hr class="col-1" style="border: solid 1px #323232; margin-bottom: 80px;">
+				<h3 style="text-align: center; font-weight: bold;">Disc</h3>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album1.html" class="course">
+						<img src="images/course1.jpg" width="100%">
+					</a>			
+					<h4>瞬き</h4>
+					<p>깜빡임</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album2.html" class="course">
+						<img src="images/course2.jpg" width="100%">
+					</a>
+					<h4>クリスマスソング</h4>
+					<p>크리스마스 송</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album3.html" class="course">
+						<img src="images/course3.jpg" width="100%">
+					</a>
+					<h4>ハッピーエンド</h4>
+					<p>Happy End</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album4.html" class="course">
+						<img src="images/course4.jpg" width="100%">				
+					</a>
+					<h4>高嶺の花子さん</h4>
+					<p>높은 곳의 하나코씨</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album5.html" class="course">
+						<img src="images/course5.jpg" width="100%">
+					</a>
+					<h4>HAPPY BIRTHDAY</h4>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album6.html" class="course">
+						<img src="images/course6.jpg" width="100%">
+					</a>
+					<h4>水平線</h4>
+					<p>수평선</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album7.html" class="course">
+						<img src="images/course7.jpg" width="100%">
+					</a>
+					<h4>Fish</h4>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album8.html" class="course">
+						<img src="images/course8.jpg" width="100%">
+					</a>
+					<h4>幸せ</h4>
+					<p>행복</p>
+				</div>	
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album9.html" class="course">
+						<img src="images/course9.jpg" width="100%">
+					</a>
+					<h4>花束</h4>
+					<p>꽃다발</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album10.html" class="course">
+						<img src="images/course10.jpg" width="100%">
+					</a>
+					<h4>ヒロイン</h4>
+					<p>히로인</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album11.html" class="course">
+						<img src="images/course11.jpg" width="100%">
+					</a>
+					<h4 style="font-weight: 700;">恋</h4>
+					<p>사랑</p>
+				</div>
+				<div class="col-8 col-md-5 col-lg-2 album">
+					<a href="album12.html" class="course">
+						<img src="images/course12.jpg" width="100%">
+					</a>
+					<h4>わたがし</h4>
+					<p>솜사탕</p>
+				</div>	
+			</div>
+		</div>
+
+		<div class="container member-intro"><div id="target2"></div>
+			<div class="row justify-content-center">
+				<hr class="col-1" style="border: solid 1px #323232; margin-bottom: 80px;">
+			</div>
+			<div class="row justify-content-center member">
+				<div class="col col-4">
+					<h3 style="font-weight: bold;">Member</h3>
+				</div>
+			</div>
+			<div class="row justify-content-center member">
+				<div class="col-5 col-md-5 col-lg-2">
+					<img src="images/코지마 카즈야.jpg" width="100%">	
+					<h4>코지마 카즈야</h4>
+					<p>베이스 &#38; 코러스</p>
+				</div>
+				<div class="col-5 col-md-5 col-lg-2" style="margin-left: 100px; margin-right: 100px;">
+					<img src="images/시미즈 이요리.jpg" width="100%">	
+					<h4>시미즈 이요리</h4>
+					<p>보컬 &#38; 기타<br>작사&middot;작곡</p>
+				</div>
+				<div class="col-5 col-md-5 col-lg-2">
+					<img src="images/쿠리하라 히사시.jpg" width="100%">	
+					<h4>쿠리하라 히사시</h4>
+					<p>드럼</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container For"><div id="target3"></div>
+			<div class="row justify-content-center">
+					<hr class="col-1" style="border: solid 1px #323232; margin-bottom: 80px;">
+				</div>
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<h3 style="font-weight: bold; text-align: center;">For<br>back number</h3>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-8">
+					<p>2004년 일본 군마에서 보컬 시미즈 이요리를 중심으로 결성. 여러 번의 멤버 변화를 거치며 2007년 현재 멤버가 되었고 이후 2011년 메이저 데뷔한 일본의 3인조 밴드 그룹이다.<br> 데뷔이후 나쁘지 않은 흥행을 이어가던 중 2015년 하반기 일본 월요드라마 '5시부터 9시까지 나를 ~나를 사랑한 스님~'의 주제가 'Christmas Song'이 히트하면서 메이저 밴드 그룹으로 급부상하였다. back number라는 그룹명은 여자친구에게 차인 후 그녀에게 있어 자신은 이미 지나간 존재라는 뜻으로 잡지의 최신간 이외의 구간을 뜻하는 back number에서 따왔다고 한다. 이러한 밴드 이름을 따르는 것인지 대부분의 노래들이 이별한 연인이나 짝사랑을 그리워하는 가사로 이루어져있다. 종종 여성시점에서 가사를 쓴 노래들을 발표하는데 짙은 호소력으로 여성 시점의 감정을 잘 전달하여 인기가 많다. 2021년에는 일본의 드라마 '시그널 장기 미제 사건 수사반'의 극장판 주제가이자 BTS의 일본어 오리지널 곡인 Film out을 악곡제공하였다. back number로서 처음으로 타 아티스트에게 악곡제공을 한 경우이며, BTS의 일본어 오리지널 곡으로는 처음으로 오리콘 차트 1위를 달성하였다. 최근 행보는 2021년 5월 24일 디지털 싱글 '怪盗(Phantom thief, 괴도)'이다.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="helper"></div><div class="fext">
+				<p>본 웹사이트는 일본 밴드 back number의 팬메이드 한국 홈페이지입니다.<br>본 웹사이트를 통한 어떠한 수익창출도 하지않습니다.<p>
+				<a href="https://backnumber.info/" target="_blank">back number 공식 홈페이지</a>
+			</div>
+		</div>
+
+
+
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	</body>
+</html>
